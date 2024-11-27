@@ -1,0 +1,20 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#E8F5E9" /> <!-- Hijau muda saat ditekan -->
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+    <item android:state_selected="true">
+        <shape>
+            <solid android:color="#E8F5E9" /> <!-- Hijau muda saat dipilih -->
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="#FFFFFF" /> <!-- Putih sebagai default -->
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+</selector>

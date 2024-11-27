@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:fillViewport="true"
+    android:padding="16dp">
+
+    <!-- Wrapper Layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Include Search Bar -->
+        <include
+            android:id="@+id/include_search_bar"
+            layout="@layout/layout_search_bar" />
+
+        <!-- Include Horizontal Scroll -->
+        <include
+            android:id="@+id/include_horizontal_scroll"
+            layout="@layout/layout_horizontal_scroll" />
+
+        <!-- Include Horizontal Grid -->
+        <include
+            android:id="@+id/include_horizontal_grid"
+            layout="@layout/layout_horizontal_grid" />
+
+        <!-- Include Flash Sale -->
+        <include
+            android:id="@+id/include_flash_sale"
+            layout="@layout/layout_flash_sale" />
+
+        <!-- Include Tabs (TabLayout + ViewPager2) -->
+        <include
+            android:id="@+id/include_tabs"
+            layout="@layout/layout_tabs" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

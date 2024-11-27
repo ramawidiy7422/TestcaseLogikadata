@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_buat_kamu"
+        android:icon="@drawable/ic_buat_kamu"
+        android:title="Buat Kamu" />
+    <item
+        android:id="@+id/nav_feed"
+        android:icon="@drawable/ic_feed"
+        android:title="Feed" />
+    <item
+        android:id="@+id/nav_store"
+        android:icon="@drawable/ic_store"
+        android:title="Store" />
+    <item
+        android:id="@+id/nav_transaksi"
+        android:icon="@drawable/ic_transaksi"
+        android:title="Transaksi" />
+    <item
+        android:id="@+id/nav_akun"
+        android:icon="@drawable/ic_akun"
+        android:title="Akun" />
+</menu>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Testcarelogikadata</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <style name="CustomTabLayout" parent="Widget.MaterialComponents.TabLayout">
+        <item name="tabPaddingStart">8dp</item>
+        <item name="tabPaddingEnd">8dp</item>
+    </style>
+
+    <string-array name="status_filter">
+        <item>Semua Status</item>
+        <item>Selesai</item>
+        <item>Belum Selesai</item>
+    </string-array>
+    <string-array name="produk_filter">
+        <item>Semua Produk</item>
+        <item>Elektronik</item>
+        <item>Furnitur</item>
+    </string-array>
+    <string-array name="tanggal_filter">
+        <item>Semua Tanggal</item>
+        <item>Bulan Ini</item>
+        <item>Tahun Ini</item>
+    </string-array>
+    <string name="app_logo">Logo aplikasi</string> <!-- Tambahkan ini -->
+</resources>

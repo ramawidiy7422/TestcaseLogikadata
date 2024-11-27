@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Corner radius untuk membuat sudut melengkung -->
+    <corners android:radius="12dp" />
+
+    <!-- Warna background kartu -->
+    <solid android:color="#FFFFFF" />
+
+    <!-- Elevasi berupa shadow di bawah kartu -->
+    <padding
+        android:left="8dp"
+        android:top="8dp"
+        android:right="8dp"
+        android:bottom="8dp" />
+
+    <!-- Outline border tipis -->
+    <stroke
+        android:width="1dp"
+        android:color="#E0E0E0" />
+</shape>

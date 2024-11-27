@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="selected_tab_color">#4CAF50</color> <!-- Warna hijau untuk teks aktif -->
+    <color name="unselected_tab_color">#9E9E9E</color> <!-- Warna abu untuk teks tidak aktif -->
+    <color name="green">#4CAF50</color>
+    <color name="black">#000000</color>
+    <color name="tokopedia_green">#00AA13</color> <!-- Warna hijau Tokopedia -->
+</resources>
